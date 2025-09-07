@@ -61,8 +61,16 @@ The app includes a login system using Streamlit sidebar.
 Default Users:
 
 Username	Password
-admin	admin123
-user1	pass123
+
+Username	admin123
+
+password	pass123
+
+Username and password in gradio:
+
+Username  admin
+
+password	password123
 
 Users must log in via the sidebar to access the clustering prediction page.
 
@@ -106,13 +114,6 @@ Run the Streamlit app:
 
 streamlit run app.py
 
-
-Open the browser → Sidebar login:
-
-Username: admin
-
-Password: admin123
-
 Enter the 13 wine features in the input fields.
 
 Click "Predict Cluster" → the app shows the predicted cluster number and description.
@@ -132,17 +133,20 @@ Color_Intensity	5.0
 Hue	1.0
 OD280	3.0
 Proline	750.0
+
 🎯 Expected Output
+
 🎉 This input belongs to Cluster 3
+
 Cluster 3: Very strong wines
 
 Clustering graph:
+
 <img width="546" height="435" alt="image" src="https://github.com/user-attachments/assets/fb6b3f3b-f801-4aca-aec0-d7ae3bb0d57b" />
 
 <img width="546" height="435" alt="image" src="https://github.com/user-attachments/assets/37f71993-9208-44c0-9c4a-c60978b00569" />
 
 <img width="546" height="435" alt="image" src="https://github.com/user-attachments/assets/d5f5e337-c435-4cfa-b2f0-dde86e881e3d" />
 
-<img width="546" height="435" alt="image" src="https://github.com/user-attachments/assets/790929d5-7b1a-4192-b116-641c900801fd" />
 
 
