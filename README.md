@@ -2,7 +2,9 @@
 
 This application leverages the Wine dataset from Kaggle to perform clustering using various machine learning algorithms.
 
-Try this app-https://wine-clustering-0-3.streamlit.app/
+Try this app in streamlit-https://wine-clustering-0-3.streamlit.app/
+
+Try this app in gradio-https://huggingface.co/spaces/Varshini-07/Wine_clustering
 
 📊 Dataset
 
