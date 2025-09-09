@@ -5,5 +5,3 @@ scikit-learn
 streamlit
 seaborn
 gradio
-ydata-profiling
-sweetviz
