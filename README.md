@@ -78,13 +78,21 @@ Users must log in via the sidebar to access the clustering prediction page.
 wine_clustering_app/
 │
 ├── app.py                  # Main Streamlit app
+
 ├── requirements.txt        # Python dependencies
+
 ├── scaler.pkl              # Saved StandardScaler object
+
 ├── pca.pkl                 # Saved PCA object
+
 ├── kmeans_model.pkl        # Trained KMeans model
+
 ├── dbscan_model.pkl        # Trained DBSCAN model
+
 ├── hierarchical_model.pkl  # Trained Hierarchical model
+
 ├── README.md               # Project documentation
+
 └── dataset.csv             # Original Wine dataset (optional)
 
 📦 Installation
@@ -92,6 +100,7 @@ wine_clustering_app/
 Clone the repository:
 
 git clone https://github.com/yourusername/wine_clustering_app.git
+
 cd wine_clustering_app
 
 
