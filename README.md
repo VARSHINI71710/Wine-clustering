@@ -75,7 +75,9 @@ password	password123
 Users must log in via the sidebar to access the clustering prediction page.
 
 🗂 Project Structure
+
 wine_clustering_app/
+
 │
 ├── app.py                  # Main Streamlit app
 
